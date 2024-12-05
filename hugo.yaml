@@ -1,0 +1,115 @@
+baseURL: https://sarangwandile.xyz/
+languageCode: en-us
+title: sarangwandile.xyz
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    #- identifier: projects
+    #  name: Projects
+    #  url: /projects
+    #  weight: 30
+    #- identifier: experience
+    #  name: Experience
+    #  url: /experience
+    #  weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 100
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 60
+    #- identifier: categories
+    #  name: Categories
+    #  url: /categories
+    #  weight: 50
+    # - identifier: notes
+    #   name: Notes
+    #   url: 
+    #   weight: 70
+
+fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Sarang Wandile"
+    subtitle: Hello 👋! I'm Sarang Wandile, currently I'm deep diving in the field of DevOps, Cloud. 
+    imageUrl: "home/gryffindor.png"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:archsarangx@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/sarangswandile"
+    - name: "github"
+      url: "https://github.com/srngx"
+    - name: "telegram"
+      url: "https://t.me/libgen"
+    #- name: "cv"
+     
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
