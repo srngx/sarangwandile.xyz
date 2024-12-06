@@ -2,17 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on sarangwandile.xyz</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Blogs on sarangwandile.xyz</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2024 16:03:35 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Dec 2024 23:48:24 +0530</lastBuildDate>
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Newdomain</title>
+      <link>/blog/newdomain/</link>
+      <pubDate>Fri, 06 Dec 2024 23:48:24 +0530</pubDate>
+      <guid>/blog/newdomain/</guid>
+      <description>&lt;h1 id=&#34;new-domain-purchased&#34;&gt;New Domain purchased.&lt;/h1&gt;
+&lt;p&gt;Recently I just purchased new domain &amp;ldquo;sarangwandile.xyz&amp;rdquo; from godaddy.&lt;/p&gt;
+&lt;p&gt;but something didint go well.&lt;/p&gt;
+&lt;p&gt;As soon i purchased it it went into black list of &lt;strong&gt;Spam Eating Monkey&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SEM-FRESH — Domains registered in the last 5 days
+SEM-FRESH10 — Domains registered in the last 10 days
+SEM-FRESH15 — Domains registered in the last 15 days
+SEM-FRESH30 — Domains registered in the last 30 days
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And I was panick as It was rufusing to load my github pages static website (which would be this one)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Firstblog</title>
-      <link>http://localhost:1313/blog/firstblog/</link>
+      <link>/blog/firstblog/</link>
       <pubDate>Thu, 05 Dec 2024 16:03:35 +0530</pubDate>
-      <guid>http://localhost:1313/blog/firstblog/</guid>
+      <guid>/blog/firstblog/</guid>
       <description>&lt;h1 id=&#34;this-is-first-blog&#34;&gt;This is First blog&lt;/h1&gt;
 &lt;p&gt;I have created this using
 &lt;code&gt;hugo new content blog/firstblog.md&lt;/code&gt;&lt;/p&gt;
