@@ -36,5 +36,18 @@ unto it.
 
 bye.
 
+***
 
+## Update 
+The Images not loading issue was because of hugo `baseUrl` configuration. 
+This varialbe if set to domain or custom link it resolves the links relative to that url.
+So if I leave it empty `basUrl = ""` and ran with `hugo server` command it automatically assumes "localhost:1313" for base url. but if set to another url like `example.com` it try it use it.
+but my static site wasnt deployed using hugo framework from cloudflare I just build hugo site on windows and push it to github repo and cloudflare pages will statically serve the pages in "/public" folder.
 
+So upon changin baseUrl to "/" just works and fixed the issue.
+ 
+So ig now I have one less issue to fix.
+
+Todo
+- [x] Fixing images and relative urls not showing
+- [ ] Removing domain from blacklisting  

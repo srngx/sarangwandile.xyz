@@ -118,8 +118,8 @@ And I was panick as It was rufusing to load my github pages static website (whic
   "keywords": [
     
   ],
-  "articleBody": "New Domain purchased. Recently I just purchased new domain “sarangwandile.xyz” from godaddy.\nbut something didint go well.\nAs soon i purchased it it went into black list of Spam Eating Monkey\nSEM-FRESH — Domains registered in the last 5 days SEM-FRESH10 — Domains registered in the last 10 days SEM-FRESH15 — Domains registered in the last 15 days SEM-FRESH30 — Domains registered in the last 30 days And I was panick as It was rufusing to load my github pages static website (which would be this one)\nI create hugo based personal website just to test this domain. And thought I would stick to it for at least one year. but because of this panick I was angry onto godaddy for what deemed for me to be bad service but then one friend told me to use cloudflare nameservers and I did.\nand site is visible but still I can only see it with using vpn.\nI need to do something regarding blacklisting.\nand hugo site also not properly working and not showing images and another links at this point.\nunto it.\nbye.\n",
-  "wordCount" : "183",
+  "articleBody": "New Domain purchased. Recently I just purchased new domain “sarangwandile.xyz” from godaddy.\nbut something didint go well.\nAs soon i purchased it it went into black list of Spam Eating Monkey\nSEM-FRESH — Domains registered in the last 5 days SEM-FRESH10 — Domains registered in the last 10 days SEM-FRESH15 — Domains registered in the last 15 days SEM-FRESH30 — Domains registered in the last 30 days And I was panick as It was rufusing to load my github pages static website (which would be this one)\nI create hugo based personal website just to test this domain. And thought I would stick to it for at least one year. but because of this panick I was angry onto godaddy for what deemed for me to be bad service but then one friend told me to use cloudflare nameservers and I did.\nand site is visible but still I can only see it with using vpn.\nI need to do something regarding blacklisting.\nand hugo site also not properly working and not showing images and another links at this point.\nunto it.\nbye.\nUpdate The Images not loading issue was because of hugo baseUrl configuration. This varialbe if set to domain or custom link it resolves the links relative to that url. So if I leave it empty basUrl = \"\" and ran with hugo server command it automatically assumes “localhost:1313” for base url. but if set to another url like example.com it try it use it. but my static site wasnt deployed using hugo framework from cloudflare I just build hugo site on windows and push it to github repo and cloudflare pages will statically serve the pages in “/public” folder.\nSo upon changin baseUrl to “/” just works and fixed the issue.\nSo ig now I have one less issue to fix.\nTodo\nFixing images and relative urls not showing Removing domain from blacklisting ",
+  "wordCount" : "316",
   "inLanguage": "en",
   "datePublished": "2024-12-06T23:48:24+05:30",
   "dateModified": "2024-12-06T23:48:24+05:30",
@@ -221,8 +221,13 @@ And I was panick as It was rufusing to load my github pages static website (whic
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#new-domain-purchased" aria-label="New Domain purchased.">New Domain purchased.</a>
+                    <a href="#new-domain-purchased" aria-label="New Domain purchased.">New Domain purchased.</a><ul>
+                        
+                <li>
+                    <a href="#update" aria-label="Update">Update</a>
                 </li>
+            </ul>
+            </li>
             </ul>
         </div>
     </details>
@@ -245,6 +250,19 @@ but then one friend told me to use cloudflare nameservers and I did.</p>
 <p>and hugo site also not properly working and not showing images and another links at this point.</p>
 <p>unto it.</p>
 <p>bye.</p>
+<hr>
+<h2 id="update">Update<a hidden class="anchor" aria-hidden="true" href="#update">#</a></h2>
+<p>The Images not loading issue was because of hugo <code>baseUrl</code> configuration.
+This varialbe if set to domain or custom link it resolves the links relative to that url.
+So if I leave it empty <code>basUrl = &quot;&quot;</code> and ran with <code>hugo server</code> command it automatically assumes &ldquo;localhost:1313&rdquo; for base url. but if set to another url like <code>example.com</code> it try it use it.
+but my static site wasnt deployed using hugo framework from cloudflare I just build hugo site on windows and push it to github repo and cloudflare pages will statically serve the pages in &ldquo;/public&rdquo; folder.</p>
+<p>So upon changin baseUrl to &ldquo;/&rdquo; just works and fixed the issue.</p>
+<p>So ig now I have one less issue to fix.</p>
+<p>Todo</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Fixing images and relative urls not showing</li>
+<li><input disabled="" type="checkbox"> Removing domain from blacklisting</li>
+</ul>
 
 
   </div>
