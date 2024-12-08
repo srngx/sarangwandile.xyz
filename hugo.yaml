@@ -2,6 +2,7 @@ baseURL: "/"
 languageCode: en-us
 title: sarangwandile.xyz
 theme: PaperMod
+enableRobotsTXT: true
 
 menu:
   main:
@@ -24,11 +25,14 @@ menu:
     - identifier: search
       name: Search
       url: /search
-      weight: 100
+      weight: 10
     - identifier: tags
       name: Tags
       url: /tags
       weight: 60
+    - identifier: feeds
+      name: RSS
+      url: index.xml
     #- identifier: categories
     #  name: Categories
     #  url: /categories
@@ -55,6 +59,9 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
+  ShowReadingTime: true
+  assets:
+      favicon: "home/gryffindor.png"
 
   # for enchanced SEO
   env: production
@@ -87,7 +94,7 @@ params:
     - name: "github"
       url: "https://github.com/srngx"
     - name: "telegram"
-      url: "https://t.me/libgen"
+      url: "https://t.me/notlibrarygenesis"
     #- name: "cv"
      
 
@@ -113,3 +120,4 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      
