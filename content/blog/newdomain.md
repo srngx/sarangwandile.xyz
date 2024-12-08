@@ -12,7 +12,7 @@ but something didint go well.
 
 As soon i purchased it it went into black list of **Spam Eating Monkey**
 
-```
+```txt
 SEM-FRESH — Domains registered in the last 5 days
 SEM-FRESH10 — Domains registered in the last 10 days
 SEM-FRESH15 — Domains registered in the last 15 days
@@ -38,7 +38,7 @@ bye.
 
 ***
 
-## Update 
+# Update 
 The Images not loading issue was because of hugo `baseUrl` configuration. 
 This varialbe if set to domain or custom link it resolves the links relative to that url.
 So if I leave it empty `basUrl = ""` and ran with `hugo server` command it automatically assumes "localhost:1313" for base url. but if set to another url like `example.com` it try it use it.
@@ -48,15 +48,15 @@ So upon changin baseUrl to "/" just works and fixed the issue.
  
 So ig now I have one less issue to fix.
 
-### Another Update as on 08/12/2024
+## Another Update as on 08/12/2024
 It turns out these blacklist will automatically clear my domain after 5 days
 Fortunately it seems to fixed itself and now I dont have to wait for 5 days and **I can load my website without vpn now.**
 
-### Todo
+# Todo
 - [x] Fixing images and relative urls not showing
 - [ ] Removing domain from blacklisting  
 
-### Notes
+# Notes
 
 when building site with hugo always use with these `flags` if you dont want to regret later.
 
