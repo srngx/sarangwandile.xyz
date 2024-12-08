@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>sarangwandile.xyz</title>
-    <link>https://sarangwandile.xyz:1313/</link>
+    <link>https://sarangwandile.xyz/</link>
     <description>Recent content on sarangwandile.xyz</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Dec 2024 23:48:24 +0530</lastBuildDate>
-    <atom:link href="https://sarangwandile.xyz:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sarangwandile.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Newdomain</title>
-      <link>https://sarangwandile.xyz:1313/blog/newdomain/</link>
+      <link>https://sarangwandile.xyz/blog/newdomain/</link>
       <pubDate>Fri, 06 Dec 2024 23:48:24 +0530</pubDate>
-      <guid>https://sarangwandile.xyz:1313/blog/newdomain/</guid>
+      <guid>https://sarangwandile.xyz/blog/newdomain/</guid>
       <description>&lt;h1 id=&#34;new-domain-purchased&#34;&gt;New Domain purchased.&lt;/h1&gt;
 &lt;p&gt;Recently I just purchased new domain &amp;ldquo;sarangwandile.xyz&amp;rdquo; from godaddy.&lt;/p&gt;
 &lt;p&gt;but something didint go well.&lt;/p&gt;
@@ -25,9 +25,9 @@ SEM-FRESH30 — Domains registered in the last 30 days
     </item>
     <item>
       <title>Firstblog</title>
-      <link>https://sarangwandile.xyz:1313/blog/firstblog/</link>
+      <link>https://sarangwandile.xyz/blog/firstblog/</link>
       <pubDate>Thu, 05 Dec 2024 16:03:35 +0530</pubDate>
-      <guid>https://sarangwandile.xyz:1313/blog/firstblog/</guid>
+      <guid>https://sarangwandile.xyz/blog/firstblog/</guid>
       <description>&lt;h1 id=&#34;this-is-first-blog&#34;&gt;This is First blog&lt;/h1&gt;
 &lt;p&gt;I have created this using
 &lt;code&gt;hugo new content blog/firstblog.md&lt;/code&gt;&lt;/p&gt;

@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sarangwandile.xyz:1313/blog/</loc>
+    <loc>https://sarangwandile.xyz/blog/</loc>
     <lastmod>2024-12-06T23:48:24+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz:1313/blog/newdomain/</loc>
+    <loc>https://sarangwandile.xyz/blog/newdomain/</loc>
     <lastmod>2024-12-06T23:48:24+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz:1313/</loc>
+    <loc>https://sarangwandile.xyz/</loc>
     <lastmod>2024-12-06T23:48:24+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz:1313/blog/firstblog/</loc>
+    <loc>https://sarangwandile.xyz/blog/firstblog/</loc>
     <lastmod>2024-12-05T16:03:35+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz:1313/categories/</loc>
+    <loc>https://sarangwandile.xyz/categories/</loc>
   </url><url>
-    <loc>https://sarangwandile.xyz:1313/search/</loc>
+    <loc>https://sarangwandile.xyz/search/</loc>
   </url><url>
-    <loc>https://sarangwandile.xyz:1313/tags/</loc>
+    <loc>https://sarangwandile.xyz/tags/</loc>
   </url>
 </urlset>
