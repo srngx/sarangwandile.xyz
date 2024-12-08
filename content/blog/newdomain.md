@@ -48,6 +48,21 @@ So upon changin baseUrl to "/" just works and fixed the issue.
  
 So ig now I have one less issue to fix.
 
-Todo
+### Another Update as on 08/12/2024
+It turns out these blacklist will automatically clear my domain after 5 days
+Fortunately it seems to fixed itself and now I dont have to wait for 5 days and **I can load my website without vpn now.**
+
+### Todo
 - [x] Fixing images and relative urls not showing
 - [ ] Removing domain from blacklisting  
+
+### Notes
+
+when building site with hugo always use with these `flags` if you dont want to regret later.
+
+```bash
+hugo server --baseURL https://example.org/ --appendPort=false 
+```
+
+additionally you can also add `baseUrl="https://example.org"` in your `hugo.yaml`
+
