@@ -6,8 +6,28 @@
     <description>Recent content on sarangwandile.xyz</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Dec 2024 23:48:24 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 21:43:54 +0530</lastBuildDate>
     <atom:link href="https://sarangwandile.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aws in Plain English</title>
+      <link>https://sarangwandile.xyz/blog/aws_in_plain_english/</link>
+      <pubDate>Tue, 10 Dec 2024 21:43:54 +0530</pubDate>
+      <guid>https://sarangwandile.xyz/blog/aws_in_plain_english/</guid>
+      <description>&lt;h1 id=&#34;aws-in-plain-english&#34;&gt;AWS in Plain English&lt;/h1&gt;
+&lt;p&gt;I was searching one liner meaning for aws services and I came across some interesting websites:&lt;/p&gt;
+&lt;h2 id=&#34;meaning-of-aws-services-in-one-line&#34;&gt;Meaning of AWS Services in one line&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://adayinthelifeof.nl/2020/05/20/aws.html&#34;&gt;https://adayinthelifeof.nl/2020/05/20/aws.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://expeditedsecurity.com/aws-in-plain-english/&#34;&gt;https://expeditedsecurity.com/aws-in-plain-english/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;those-i-need&#34;&gt;Those I need&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;EC2&lt;/strong&gt; - Virtual Private Servers&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lambda&lt;/strong&gt; - Programming Functions you can run but can costs a fortune&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;S3&lt;/strong&gt; - File Storage (unmountable)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EFS&lt;/strong&gt; - Mountable Network Disks&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RDS&lt;/strong&gt; - Managed Relational Database&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VPC&lt;/strong&gt; - Virtual Private Network (consider as VLANs)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Newdomain</title>
       <link>https://sarangwandile.xyz/blog/newdomain/</link>

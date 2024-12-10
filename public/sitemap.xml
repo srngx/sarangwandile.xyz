@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sarangwandile.xyz/blog/</loc>
-    <lastmod>2024-12-06T23:48:24+05:30</lastmod>
+    <loc>https://sarangwandile.xyz/blog/aws_in_plain_english/</loc>
+    <lastmod>2024-12-10T21:43:54+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz/blog/newdomain/</loc>
-    <lastmod>2024-12-06T23:48:24+05:30</lastmod>
+    <loc>https://sarangwandile.xyz/blog/</loc>
+    <lastmod>2024-12-10T21:43:54+05:30</lastmod>
   </url><url>
     <loc>https://sarangwandile.xyz/</loc>
+    <lastmod>2024-12-10T21:43:54+05:30</lastmod>
+  </url><url>
+    <loc>https://sarangwandile.xyz/blog/newdomain/</loc>
     <lastmod>2024-12-06T23:48:24+05:30</lastmod>
   </url><url>
     <loc>https://sarangwandile.xyz/blog/firstblog/</loc>
