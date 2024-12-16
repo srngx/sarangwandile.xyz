@@ -54,11 +54,11 @@ Fortunately it seems to fixed itself and now I dont have to wait for 5 days and 
 
 # Todo
 - [x] Fixing images and relative urls not showing
-- [ ] Removing domain from blacklisting  
+- [x] Removing domain from blacklisting  
 
-# Notes
+# Notes for self
 
-when building site with hugo always use with these `flags` if you dont want to regret later.
+When building site with hugo always use with these `flags` if you dont want to regret later.
 
 ```bash
 hugo server --baseURL https://example.org/ --appendPort=false 
