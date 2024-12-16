@@ -2,6 +2,7 @@
 date: '2024-12-10T21:43:54+05:30'
 draft: false
 title: 'Aws in Plain English'
+tags: ["notes", "AWS", "SimpleMeanings", "Links"]
 ---
 
 # AWS in Plain English

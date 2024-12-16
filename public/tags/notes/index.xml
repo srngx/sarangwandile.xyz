@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>sarangwandile.xyz</title>
-    <link>https://sarangwandile.xyz/</link>
-    <description>Recent content on sarangwandile.xyz</description>
+    <title>Notes on sarangwandile.xyz</title>
+    <link>https://sarangwandile.xyz/tags/notes/</link>
+    <description>Recent content in Notes on sarangwandile.xyz</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Dec 2024 14:33:29 +0530</lastBuildDate>
-    <atom:link href="https://sarangwandile.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sarangwandile.xyz/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aws Services Simply Explained</title>
       <link>https://sarangwandile.xyz/notes/aws_services_simply_explained/</link>
@@ -37,31 +37,6 @@
 &lt;p&gt;&lt;strong&gt;EFS&lt;/strong&gt; - Mountable Network Disks&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;RDS&lt;/strong&gt; - Managed Relational Database&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;VPC&lt;/strong&gt; - Virtual Private Network (consider as VLANs)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Newdomain</title>
-      <link>https://sarangwandile.xyz/blog/newdomain/</link>
-      <pubDate>Fri, 06 Dec 2024 23:48:24 +0530</pubDate>
-      <guid>https://sarangwandile.xyz/blog/newdomain/</guid>
-      <description>&lt;h1 id=&#34;new-domain-purchased&#34;&gt;New Domain purchased.&lt;/h1&gt;
-&lt;p&gt;Recently I just purchased new domain &amp;ldquo;sarangwandile.xyz&amp;rdquo; from godaddy.&lt;/p&gt;
-&lt;p&gt;but something didint go well.&lt;/p&gt;
-&lt;p&gt;As soon i purchased it it went into black list of &lt;strong&gt;Spam Eating Monkey&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SEM-FRESH — Domains registered in the last 5 days
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SEM-FRESH10 — Domains registered in the last 10 days
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SEM-FRESH15 — Domains registered in the last 15 days
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SEM-FRESH30 — Domains registered in the last 30 days
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And I was panick as It was rufusing to load my github pages static website (which would be this one)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Firstblog</title>
-      <link>https://sarangwandile.xyz/blog/firstblog/</link>
-      <pubDate>Thu, 05 Dec 2024 16:03:35 +0530</pubDate>
-      <guid>https://sarangwandile.xyz/blog/firstblog/</guid>
-      <description>&lt;h1 id=&#34;this-is-first-blog&#34;&gt;This is First blog&lt;/h1&gt;
-&lt;p&gt;I have created this using
-&lt;code&gt;hugo new content blog/firstblog.md&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Its simple command you see.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
