@@ -63,6 +63,7 @@ params:
   assets:
       favicon: "home/gryffindor.png"
 
+
   # for enchanced SEO
   env: production
 
@@ -70,7 +71,7 @@ params:
   profileMode:
     enabled: true
     title: "Sarang Wandile"
-    subtitle: Hello 👋! I'm Sarang Wandile, currently I'm deep diving in the field of DevOps, Cloud. 
+    subtitle: Hello 👋! I'm Sarang Wandile, currently I'm deep diving into the fields of DevOps and Cloud. 
     imageUrl: "home/gryffindor.png"
     imageWidth: 220
     imageHeight: 220
@@ -106,7 +107,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "permalink", "summary", "content"]  
 
 # for search using Fuse.js
 outputs:
@@ -120,4 +121,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-      
+
+
+

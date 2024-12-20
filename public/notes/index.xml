@@ -6,8 +6,25 @@
     <description>Recent content in Notes on sarangwandile.xyz</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2024 14:33:29 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 20:26:41 +0530</lastBuildDate>
     <atom:link href="https://sarangwandile.xyz/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Notes</title>
+      <link>https://sarangwandile.xyz/notes/git_notes/</link>
+      <pubDate>Fri, 20 Dec 2024 20:26:41 +0530</pubDate>
+      <guid>https://sarangwandile.xyz/notes/git_notes/</guid>
+      <description>&lt;h2 id=&#34;what-is-git&#34;&gt;What is Git?&lt;/h2&gt;
+&lt;p&gt;Git is a &lt;strong&gt;Distributed Version Control System&lt;/strong&gt; that mainly used for Source code management by developers.&lt;/p&gt;
+&lt;p&gt;Git basically divides your code into three part.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Working Area&lt;/li&gt;
+&lt;li&gt;Staging Area&lt;/li&gt;
+&lt;li&gt;Head or commit&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Working Area is your state of code before running the &lt;code&gt;git add&lt;/code&gt; command.
+The files in here also known as &amp;ldquo;untracked files&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;To add the files into git you do &lt;code&gt;git add&lt;/code&gt; and they moved to &lt;code&gt;staging area&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Aws Services Simply Explained</title>
       <link>https://sarangwandile.xyz/notes/aws_services_simply_explained/</link>
