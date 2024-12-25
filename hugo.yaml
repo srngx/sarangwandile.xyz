@@ -10,9 +10,9 @@ menu:
       name: Search
       url: /search
       weight: 10
-    - identifier: blog
-      name: Blogs
-      url: /blog
+    - identifier: posts
+      name: Posts
+      url: /posts
       weight: 20
     #- identifier: projects
     #  name: Projects
@@ -24,7 +24,7 @@ menu:
     #  weight: 40
     - identifier: notes
       name: Notes
-      url: /notes
+      url: https://notes.sarangwandile.xyz
       weight: 10  
     - identifier: tags
       name: Tags

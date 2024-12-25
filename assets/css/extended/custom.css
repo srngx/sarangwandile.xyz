@@ -1,9 +1,25 @@
-:body {
-    background: url("https://w.wallhaven.cc/full/rr/wallhaven-rrl1kj.jpg") no-repeat fixed !important;
+nobody {
+    position: relative;
+    background: url("https://www.harrypotter.com/images/pages/portrait-maker/background.jpg") top no-repeat !important;
     background-size: cover;
-    background-position-y: center;
-    background-attachment: fixed;
+    height: 100vh;
+    overflow: auto;
+    padding: 0 15px;
 }
+
+:root {
+    --theme: rgb(173, 134, 134);
+    --entry: rgb(133, 106, 106);
+    --primary: rgb(205, 144, 111);
+    --secondary: rgb(193, 138, 108);
+    --tertiary: rgb(150, 164, 192);
+    --content: rgb(196, 196, 197);
+    --code-block-bg: rgb(37, 28, 28);
+    --code-bg: rgb(37, 28, 28);
+    --border: rgb(37, 28, 28);
+}
+
+
 
 .dark {
     --theme: rgb(17, 8, 8);

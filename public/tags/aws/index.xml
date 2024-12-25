@@ -10,9 +10,9 @@
     <atom:link href="https://sarangwandile.xyz/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aws Services Simply Explained</title>
-      <link>https://sarangwandile.xyz/notes/aws_services_simply_explained/</link>
+      <link>https://sarangwandile.xyz/posts/aws_services_simply_explained/</link>
       <pubDate>Mon, 16 Dec 2024 14:33:29 +0530</pubDate>
-      <guid>https://sarangwandile.xyz/notes/aws_services_simply_explained/</guid>
+      <guid>https://sarangwandile.xyz/posts/aws_services_simply_explained/</guid>
       <description>&lt;p&gt;This is the list of AWS resources required for Entry level devops interview preparation. Sometimes we struggle to explain the definition we already know it&amp;rsquo;s usecase in simpler terms. So I curated this list. The ones written in &lt;em&gt;Italian&lt;/em&gt; is my own hand crafted lines while others mostly generated from Gemini Ai.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>Aws in Plain English</title>
-      <link>https://sarangwandile.xyz/notes/aws_in_plain_english/</link>
+      <link>https://sarangwandile.xyz/posts/aws_in_plain_english/</link>
       <pubDate>Tue, 10 Dec 2024 21:43:54 +0530</pubDate>
-      <guid>https://sarangwandile.xyz/notes/aws_in_plain_english/</guid>
+      <guid>https://sarangwandile.xyz/posts/aws_in_plain_english/</guid>
       <description>&lt;h1 id=&#34;aws-in-plain-english&#34;&gt;AWS in Plain English&lt;/h1&gt;
 &lt;p&gt;I was searching one liner meaning for aws services and I came across some interesting websites:&lt;/p&gt;
 &lt;h2 id=&#34;meaning-of-aws-services-in-one-line&#34;&gt;Meaning of AWS Services in one line&lt;/h2&gt;

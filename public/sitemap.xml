@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sarangwandile.xyz/notes/git_notes/</loc>
+    <loc>https://sarangwandile.xyz/posts/git_notes/</loc>
     <lastmod>2024-12-20T20:26:41+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz/notes/</loc>
+    <loc>https://sarangwandile.xyz/posts/</loc>
     <lastmod>2024-12-20T20:26:41+05:30</lastmod>
   </url><url>
     <loc>https://sarangwandile.xyz/</loc>
@@ -14,7 +14,7 @@
     <loc>https://sarangwandile.xyz/tags/aws/</loc>
     <lastmod>2024-12-16T14:33:29+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz/notes/aws_services_simply_explained/</loc>
+    <loc>https://sarangwandile.xyz/posts/aws_services_simply_explained/</loc>
     <lastmod>2024-12-16T14:33:29+05:30</lastmod>
   </url><url>
     <loc>https://sarangwandile.xyz/tags/links/</loc>
@@ -29,16 +29,13 @@
     <loc>https://sarangwandile.xyz/tags/</loc>
     <lastmod>2024-12-16T14:33:29+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz/notes/aws_in_plain_english/</loc>
+    <loc>https://sarangwandile.xyz/posts/aws_in_plain_english/</loc>
     <lastmod>2024-12-10T21:43:54+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz/blog/</loc>
+    <loc>https://sarangwandile.xyz/posts/newdomain/</loc>
     <lastmod>2024-12-06T23:48:24+05:30</lastmod>
   </url><url>
-    <loc>https://sarangwandile.xyz/blog/newdomain/</loc>
-    <lastmod>2024-12-06T23:48:24+05:30</lastmod>
-  </url><url>
-    <loc>https://sarangwandile.xyz/blog/firstblog/</loc>
+    <loc>https://sarangwandile.xyz/posts/firstblog/</loc>
     <lastmod>2024-12-05T16:03:35+05:30</lastmod>
   </url><url>
     <loc>https://sarangwandile.xyz/categories/</loc>

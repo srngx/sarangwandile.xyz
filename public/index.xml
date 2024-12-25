@@ -10,9 +10,9 @@
     <atom:link href="https://sarangwandile.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Notes</title>
-      <link>https://sarangwandile.xyz/notes/git_notes/</link>
+      <link>https://sarangwandile.xyz/posts/git_notes/</link>
       <pubDate>Fri, 20 Dec 2024 20:26:41 +0530</pubDate>
-      <guid>https://sarangwandile.xyz/notes/git_notes/</guid>
+      <guid>https://sarangwandile.xyz/posts/git_notes/</guid>
       <description>&lt;h2 id=&#34;what-is-git&#34;&gt;What is Git?&lt;/h2&gt;
 &lt;p&gt;Git is a &lt;strong&gt;Distributed Version Control System&lt;/strong&gt; that mainly used for Source code management by developers.&lt;/p&gt;
 &lt;p&gt;Git basically divides your code into three part.&lt;/p&gt;
@@ -27,9 +27,9 @@ The files in here also known as &amp;ldquo;untracked files&amp;rdquo;.&lt;/p&gt;
     </item>
     <item>
       <title>Aws Services Simply Explained</title>
-      <link>https://sarangwandile.xyz/notes/aws_services_simply_explained/</link>
+      <link>https://sarangwandile.xyz/posts/aws_services_simply_explained/</link>
       <pubDate>Mon, 16 Dec 2024 14:33:29 +0530</pubDate>
-      <guid>https://sarangwandile.xyz/notes/aws_services_simply_explained/</guid>
+      <guid>https://sarangwandile.xyz/posts/aws_services_simply_explained/</guid>
       <description>&lt;p&gt;This is the list of AWS resources required for Entry level devops interview preparation. Sometimes we struggle to explain the definition we already know it&amp;rsquo;s usecase in simpler terms. So I curated this list. The ones written in &lt;em&gt;Italian&lt;/em&gt; is my own hand crafted lines while others mostly generated from Gemini Ai.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -37,9 +37,9 @@ The files in here also known as &amp;ldquo;untracked files&amp;rdquo;.&lt;/p&gt;
     </item>
     <item>
       <title>Aws in Plain English</title>
-      <link>https://sarangwandile.xyz/notes/aws_in_plain_english/</link>
+      <link>https://sarangwandile.xyz/posts/aws_in_plain_english/</link>
       <pubDate>Tue, 10 Dec 2024 21:43:54 +0530</pubDate>
-      <guid>https://sarangwandile.xyz/notes/aws_in_plain_english/</guid>
+      <guid>https://sarangwandile.xyz/posts/aws_in_plain_english/</guid>
       <description>&lt;h1 id=&#34;aws-in-plain-english&#34;&gt;AWS in Plain English&lt;/h1&gt;
 &lt;p&gt;I was searching one liner meaning for aws services and I came across some interesting websites:&lt;/p&gt;
 &lt;h2 id=&#34;meaning-of-aws-services-in-one-line&#34;&gt;Meaning of AWS Services in one line&lt;/h2&gt;
@@ -57,9 +57,9 @@ The files in here also known as &amp;ldquo;untracked files&amp;rdquo;.&lt;/p&gt;
     </item>
     <item>
       <title>Newdomain</title>
-      <link>https://sarangwandile.xyz/blog/newdomain/</link>
+      <link>https://sarangwandile.xyz/posts/newdomain/</link>
       <pubDate>Fri, 06 Dec 2024 23:48:24 +0530</pubDate>
-      <guid>https://sarangwandile.xyz/blog/newdomain/</guid>
+      <guid>https://sarangwandile.xyz/posts/newdomain/</guid>
       <description>&lt;h1 id=&#34;new-domain-purchased&#34;&gt;New Domain purchased.&lt;/h1&gt;
 &lt;p&gt;Recently I just purchased new domain &amp;ldquo;sarangwandile.xyz&amp;rdquo; from godaddy.&lt;/p&gt;
 &lt;p&gt;but something didint go well.&lt;/p&gt;
@@ -72,9 +72,9 @@ The files in here also known as &amp;ldquo;untracked files&amp;rdquo;.&lt;/p&gt;
     </item>
     <item>
       <title>Firstblog</title>
-      <link>https://sarangwandile.xyz/blog/firstblog/</link>
+      <link>https://sarangwandile.xyz/posts/firstblog/</link>
       <pubDate>Thu, 05 Dec 2024 16:03:35 +0530</pubDate>
-      <guid>https://sarangwandile.xyz/blog/firstblog/</guid>
+      <guid>https://sarangwandile.xyz/posts/firstblog/</guid>
       <description>&lt;h1 id=&#34;this-is-first-blog&#34;&gt;This is First blog&lt;/h1&gt;
 &lt;p&gt;I have created this using
 &lt;code&gt;hugo new content blog/firstblog.md&lt;/code&gt;&lt;/p&gt;
