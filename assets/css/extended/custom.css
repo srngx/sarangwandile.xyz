@@ -8,13 +8,13 @@ nobody {
 }
 
 :root {
-    --theme: rgb(173, 134, 134);
-    --entry: rgb(133, 106, 106);
+    --theme: rgb(37, 28, 28);
+    --entry: rgb(61, 41, 41);
     --primary: rgb(205, 144, 111);
     --secondary: rgb(193, 138, 108);
     --tertiary: rgb(150, 164, 192);
     --content: rgb(196, 196, 197);
-    --code-block-bg: rgb(37, 28, 28);
+    --code-block-bg: rgb(61, 41, 41);
     --code-bg: rgb(37, 28, 28);
     --border: rgb(37, 28, 28);
 }
