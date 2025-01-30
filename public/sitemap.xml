@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sarangwandile.xyz/posts/git_notes/</loc>
-    <lastmod>2024-12-20T20:26:41+05:30</lastmod>
+    <loc>https://sarangwandile.xyz/posts/exploiting_github_token/</loc>
+    <lastmod>2025-01-30T07:16:12-05:00</lastmod>
   </url><url>
     <loc>https://sarangwandile.xyz/posts/</loc>
-    <lastmod>2024-12-20T20:26:41+05:30</lastmod>
+    <lastmod>2025-01-30T07:16:12-05:00</lastmod>
   </url><url>
     <loc>https://sarangwandile.xyz/</loc>
+    <lastmod>2025-01-30T07:16:12-05:00</lastmod>
+  </url><url>
+    <loc>https://sarangwandile.xyz/posts/git_notes/</loc>
     <lastmod>2024-12-20T20:26:41+05:30</lastmod>
   </url><url>
     <loc>https://sarangwandile.xyz/tags/aws/</loc>

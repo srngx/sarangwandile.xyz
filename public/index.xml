@@ -4,10 +4,28 @@
     <title>sarangwandile.xyz</title>
     <link>https://sarangwandile.xyz/</link>
     <description>Recent content on sarangwandile.xyz</description>
-    <generator>Hugo -- 0.139.3</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Dec 2024 20:26:41 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2025 07:16:12 -0500</lastBuildDate>
     <atom:link href="https://sarangwandile.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploiting Github Token</title>
+      <link>https://sarangwandile.xyz/posts/exploiting_github_token/</link>
+      <pubDate>Thu, 30 Jan 2025 07:16:12 -0500</pubDate>
+      <guid>https://sarangwandile.xyz/posts/exploiting_github_token/</guid>
+      <description>&lt;p&gt;Github&amp;rsquo;s Personal Access token use for Authentication and leaving it somewhere in your configs or notes can leads to disaster depending on how much access you have given to this token.&lt;/p&gt;
+&lt;p&gt;Anyone with access to this token can gain unauthorize access to your github account and misuse it for their advantages.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read or write to private repos&lt;/li&gt;
+&lt;li&gt;Delete Repos&lt;/li&gt;
+&lt;li&gt;Modifying Code&lt;/li&gt;
+&lt;li&gt;Access Sensitive Data&lt;/li&gt;
+&lt;li&gt;Escalating Privileges, changing repo setting, etc.&lt;/li&gt;
+&lt;li&gt;Act on behalf of your identity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is My &lt;strong&gt;Proof of Concept&lt;/strong&gt; to demonstrate A Simple Attack against publicly exposed PAT TOKEN to access Private Repositories and Pushing Unauthorize code changes on behalf of Github Account Owner.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Git Notes</title>
       <link>https://sarangwandile.xyz/posts/git_notes/</link>
