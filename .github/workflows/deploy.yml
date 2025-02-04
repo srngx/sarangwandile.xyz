@@ -61,7 +61,7 @@ jobs:
         run: |
           hugo \
             --buildDrafts --gc \
-            --baseURL https://sarangwandile.xyz/ \
+            --baseURL "https://sarangwandile.xyz/" \
             --appendPort=false
 
       - name: Upload artifact
