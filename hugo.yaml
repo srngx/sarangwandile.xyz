@@ -26,10 +26,14 @@ menu:
       name: Notes
       url: https://notes.sarangwandile.xyz
       weight: 10  
-    - identifier: tags
-      name: Tags
-      url: /tags
-      weight: 60
+    # - identifier: tags
+    #  name: Tags
+    #  url: /tags
+    #  weight: 60
+    - identifier: portfolio
+      name: Portfolio
+      url: https://cv.sarangwandile.xyz
+      weight: 10
     - identifier: feeds
       name: RSS
       url: index.xml
