@@ -6,6 +6,9 @@ enableRobotsTXT: true
 
 menu:
   main:
+    - identifier: portfolio
+      name: Portfolio
+      url: https://cv.sarangwandile.xyz
     - identifier: search
       name: Search
       url: /search
@@ -30,10 +33,6 @@ menu:
     #  name: Tags
     #  url: /tags
     #  weight: 60
-    - identifier: portfolio
-      name: Portfolio
-      url: https://cv.sarangwandile.xyz
-      weight: 10
     - identifier: feeds
       name: RSS
       url: index.xml
