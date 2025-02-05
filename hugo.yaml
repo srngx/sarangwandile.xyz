@@ -8,15 +8,16 @@ menu:
   main:
     - identifier: portfolio
       name: Portfolio
+      weight: 10
       url: https://cv.sarangwandile.xyz
+    - identifier: posts
+      name: Blogs
+      url: /posts
+      weight: 30
     - identifier: search
       name: Search
       url: /search
-      weight: 10
-    - identifier: posts
-      name: Posts
-      url: /posts
-      weight: 20
+      weight: 40
     #- identifier: projects
     #  name: Projects
     #  url: /projects
@@ -28,7 +29,7 @@ menu:
     - identifier: notes
       name: Notes
       url: https://notes.sarangwandile.xyz
-      weight: 10  
+      weight: 20  
     # - identifier: tags
     #  name: Tags
     #  url: /tags
