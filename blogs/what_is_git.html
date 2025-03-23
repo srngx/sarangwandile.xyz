@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>What is Git</title>
+<meta name="description" content="Explained Git in my own words so even dummy can understand like me.">
+
+<style>
+body {
+  margin: 4em;
+  line-height: 1.4;
+  max-width: 34rem;
+}
+header {
+  h2 {
+    margin-block-end: 0
+  }
+
+  p {
+    margin-block-start: 0.5em;
+    opacity: 0.6;
+    font-size: 0.93rem;
+    font-style: italic;
+  }
+
+  margin-block-end: 3.325rem;
+}
+
+
+
+@media (width < 40rem) {
+  body {
+    margin-block: 2em;
+    margin-inline: 1em;
+  }
+}
+
+body {
+  margin-block-end: 10rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: hsl(240, 44%, 8%);
+    color: rgb(183, 247, 162);
+  }
+
+  h2 {
+    color: rgb(156, 228, 33);
+  }
+
+  code, kbd {
+    color: rgb(156, 228, 33);
+    background-color: black;
+    padding: 0.6ch;
+    border: 1px solid currentColor
+  }
+
+  kbd {
+    white-space: pre;
+  }
+}
+
+p, hr {
+  margin-block: 2.25rem;
+}
+
+hr {
+  border: 0;
+  border-block-end: 1px solid black;
+  margin-block: 5rem;
+}
+table, th, td {
+   text-align: left;
+   padding: 2px;
+   font-weight: initial;
+}
+
+table {
+	border: 1px solid currentColor;
+
+}
+</style>
+
+  <meta name="og:image" content="/preview.png">
+  <link rel="icon" href="/icon.png" type="image/png">
+</head>
+
+<body>
+
+<header>
+<h2>What is Git</h2>
+<p>
+   srngx<br>
+   Dec 20, 2024
+</p>
+</header>
+
+<p>
+Git is a <b>Distributed Version Control System</b> that mainly used for Source code management by developers.
+</p>
+<p>
+Git basically divides your code into three part.
+</p>
+<ul>
+<li>1. Working Area</li>
+<li>2. Staging Area</li>
+<li>3. Head or commit</li>
+</ul>
+<p>
+Working Area is your state of code before running the <code>git add</code> command.
+The files in here also known as "untracked files".
+</p>
+
+<p>
+To add the files into git you do <code>git add</code> and they moved to <br> <code>staging area</code>.
+</p>
+<p>
+Here your code gets the <u>stage</u> (Pun Intended). 
+</p>
+<p>
+Before finalizing your code into production i.e. 'commit' you make required changes and after making sure 
+your code is ready to go into production you run <code>git commit</code> command.
+which is basically telling git this is a final changes with the special stamp of "commit hash".
+</p>
+<p>
+Then If you want you can push your code into remote repository sitting onto the cloud waiting to be forked and contributed by peoples across the glob.
+</p>
+
+<h3> Basic Git commands</h3>
+<p>
+<table>
+	<tr>
+		<th>Commands</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<th><code>git add</code></th>
+		<th>To add code into git</th>
+	</tr>
+	<tr>
+		<th><code>git commit</code></th>
+		<th>To commit changes</th>
+	</tr>
+	<tr>
+		<th><code>git push</code></th>
+		<th>To upload your code into remote repo</th>
+	</tr>
+	<tr>
+		<th><code>git pull</code></th>
+		<th>To download latest changes from remote to your local</th>
+	</tr>
+	<tr>
+		<th><code>git fetch</code></th>
+		<th>Fetching Metadata and logs from remote </th>
+	</tr>
+
+</table>
+</p>
+
+<h3>Branching Strategies </h3>
+
+<p>
+Git Provide "Branches" which are nothing but a way to seperate your code into different version so you can later integrate your features and bugfixes into production once they finished peacefully in their own isolated places.
+</p>
+<p>
+There are well known three branches people generally creates:
+<ul>
+<li> Main  (which is your production branch)</li>
+<li> Dev   (which is your ongoing development which never cease to stop.)</li>
+<li> Test  (Here your code is being tested against performance and security standards.)</li>
+</ul>
+</p>
+
+<p>
+Some people also like to create their own custom branches like `alpha, beta, stable` etc i.e. according to release state.
+</p>
+
+<h3> Commands Related to Branches</h3>
+<ul>
+<li> <code>git branch -a</code>   List all available branches </li>
+<li> <code>git checkout -b</code> Create and switch to the new branch </li>
+<li> <code>git checkout</code> To switch to different branch </li>
+</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+   <title>mrmr.io</title>
+   <description>Manav's website</description>
+   <link>https://mrmr.io</link>
+   <language>en</language>
+   <image>
+      <title>mrmr.io</title>
+      <url>https://mrmr.io/preview.png</url>
+      <link>https://mrmr.io</link>
+   </image>
+   <item>
+      <title>HTML tags and trailing slashes</title>
+      <description></description>
+      <link>https://mrmr.io/html-tags</link>
+      <guid>https://mrmr.io/html-tags</guid>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>git diff ...branch</title>
+      <description>Viewing what changed in a branch</description>
+      <link>https://mrmr.io/git-diff-...-branch</link>
+      <guid>https://mrmr.io/git-diff-...-branch</guid>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Hello WebGL</title>
+      <description>An example zero-dependency GLSL shader</description>
+      <link>https://mrmr.io/hello-gl</link>
+      <guid>https://mrmr.io/hello-gl</guid>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Immersion and time</title>
+      <description>There are no shortcuts to understanding</description>
+      <link>https://mrmr.io/immersion-and-time</link>
+      <guid>https://mrmr.io/immersion-and-time</guid>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Softmax</title>
+      <description>Converting numbers to probability distributions</description>
+      <link>https://mrmr.io/softmax</link>
+      <guid>https://mrmr.io/softmax</guid>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Assorted web dev notes</title>
+      <description></description>
+      <link>https://mrmr.io/web-dev-notes</link>
+      <guid>https://mrmr.io/web-dev-notes</guid>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Morning</title>
+      <description>A poem</description>
+      <link>https://mrmr.io/morning</link>
+      <guid>https://mrmr.io/morning</guid>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>On the useful use of cat</title>
+      <description>It is fine to begin your shell commands with cat</description>
+      <link>https://mrmr.io/cat</link>
+      <guid>https://mrmr.io/cat</guid>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Cherry pick a pull request</title>
+      <description>Creating another pull request from an already merged one, but
+      this time against a different branch</description>
+      <link>https://mrmr.io/cherry-pick-pr</link>
+      <guid>https://mrmr.io/cherry-pick-pr</guid>
+      <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Write code for the web</title>
+      <description></description>
+      <link>https://mrmr.io/apple</link>
+      <guid>https://mrmr.io/apple</guid>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Euclidean rhythms</title>
+      <description>Using Euclidean rhythms to make music</description>
+      <link>https://mrmr.io/euclidean-rhythms</link>
+      <guid>https://mrmr.io/euclidean-rhythms</guid>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Making sounds in JavaScript</title>
+      <description>An elementary introduction to JavaScript audio</description>
+      <link>https://mrmr.io/javascript-audio</link>
+      <guid>https://mrmr.io/javascript-audio</guid>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Raags</title>
+      <description>Indian music scales</description>
+      <link>https://mrmr.io/raag</link>
+      <guid>https://mrmr.io/raag</guid>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>React, Flutter and SwiftUI</title>
+      <description>3 hello worlds</description>
+      <link>https://mrmr.io/react-flutter-swiftui</link>
+      <guid>https://mrmr.io/react-flutter-swiftui</guid>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Mirror</title>
+      <description>A short story</description>
+      <link>https://mrmr.io/mirror</link>
+      <guid>https://mrmr.io/mirror</guid>
+      <pubDate>Fri, 22 Dec 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Memoization in Haskell</title>
+      <description>A State monad tutorial</description>
+      <link>https://mrmr.io/memoization-in-haskell</link>
+      <guid>https://mrmr.io/memoization-in-haskell</guid>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Housefly</title>
+      <description>A poem</description>
+      <link>https://mrmr.io/housefly</link>
+      <guid>https://mrmr.io/housefly</guid>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>TypeScript vs Haskell</title>
+      <description>Structural vs nominal type systems</description>
+      <link>https://mrmr.io/typescript-vs-haskell</link>
+      <guid>https://mrmr.io/typescript-vs-haskell</guid>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Trust your intuition</title>
+      <description>The bias fallacy</description>
+      <link>https://mrmr.io/trust-your-intuition</link>
+      <guid>https://mrmr.io/trust-your-intuition</guid>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Quotes</title>
+      <description></description>
+      <link>https://mrmr.io/quotes</link>
+      <guid>https://mrmr.io/quotes</guid>
+      <pubDate>Thu, 23 Nov 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Evoke</title>
+      <description></description>
+      <link>https://mrmr.io/evoke</link>
+      <guid>https://mrmr.io/evoke</guid>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>The Hundred Thousand Songs of Milarepa</title>
+      <description>When they grow up, what religion will AIs have?</description>
+      <link>https://mrmr.io/the-hundred-thousand-songs-of-milarepa</link>
+      <guid>https://mrmr.io/the-hundred-thousand-songs-of-milarepa</guid>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>The universe is its own simulation</title>
+      <description>and an uncompressible one</description>
+      <link>https://mrmr.io/the-universe-is-its-own-simulation</link>
+      <guid>https://mrmr.io/the-universe-is-its-own-simulation</guid>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>The promise of words</title>
+      <description>Beautiful, and binding, but are they any good?</description>
+      <link>https://mrmr.io/the-promise-of-words</link>
+      <guid>https://mrmr.io/the-promise-of-words</guid>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Choice</title>
+      <description>A fleeting moment of certainty</description>
+      <link>https://mrmr.io/choice</link>
+      <guid>https://mrmr.io/choice</guid>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>तितलियाँ</title>
+      <description>एक कविता</description>
+      <link>https://mrmr.io/तितलियाँ</link>
+      <guid>https://mrmr.io/तितलियाँ</guid>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>CSS colors</title>
+      <description>All named CSS colors, sorted by their lightness</description>
+      <link>https://mrmr.io/css-colors</link>
+      <guid>https://mrmr.io/css-colors</guid>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Become</title>
+      <description>A poem</description>
+      <link>https://mrmr.io/become</link>
+      <guid>https://mrmr.io/become</guid>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Taste</title>
+      <description>And hunger</description>
+      <link>https://mrmr.io/taste</link>
+      <guid>https://mrmr.io/taste</guid>
+      <pubDate>Mon, 01 May 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>पानी</title>
+      <description>एक कविता</description>
+      <link>https://mrmr.io/पानी</link>
+      <guid>https://mrmr.io/पानी</guid>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Money</title>
+      <description>A poem</description>
+      <link>https://mrmr.io/money</link>
+      <guid>https://mrmr.io/money</guid>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Stargazers</title>
+      <description>A poem</description>
+      <link>https://mrmr.io/come</link>
+      <guid>https://mrmr.io/come</guid>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Murmur</title>
+      <description>A poem</description>
+      <link>https://mrmr.io/mrmr</link>
+      <guid>https://mrmr.io/mrmr</guid>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Honey and cashews</title>
+      <description>A poem</description>
+      <link>https://mrmr.io/honey-and-cashews</link>
+      <guid>https://mrmr.io/honey-and-cashews</guid>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Mistakes were Made</title>
+      <description>A movie review</description>
+      <link>https://mrmr.io/mistakes-were-made</link>
+      <guid>https://mrmr.io/mistakes-were-made</guid>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Night</title>
+      <description>A poem</description>
+      <link>https://mrmr.io/museum</link>
+      <guid>https://mrmr.io/museum</guid>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 GMT</pubDate>
+   </item>
+   <item>
+      <title>Random mutations</title>
+      <description></description>
+      <link>https://mrmr.io/mutations</link>
+      <guid>https://mrmr.io/mutations</guid>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 GMT</pubDate>
+   </item>
+</channel>
+</rss>

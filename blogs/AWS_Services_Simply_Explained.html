@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>AWS Services Simply Explained</title>
+<meta name="description" content="Some terms of AWS that I noted for interview preparation just in case">
+
+<style>
+:root {
+  font-size: 95%;
+
+  --soft: rgb(204, 204, 214);
+  --bg-pre: beige;
+  --accent: rgb(147, 108, 24);
+}
+
+a {
+	color: var(--soft);
+}
+
+a:hover {
+	color: var(--accent);
+}
+
+h2, b, em  {
+  color: var(--accent);
+}
+
+header {
+  h2 {
+    margin-block-end: 0
+  }
+
+  p {
+    margin-block-start: 0.5em;
+    opacity: 0.6;
+    font-size: 0.93rem;
+    font-style: italic;
+  }
+
+  margin-block-end: 3.325rem;
+}
+
+pre {
+  background-color: azure;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --soft: rgb(204, 204, 214);
+    --bg-pre: hsl(213, 31%, 11%);
+    --accent: gold;
+  }
+
+  body {
+    background-color: rgb(12, 17, 23);
+    color: rgb(224, 224, 234);
+  }
+}
+
+pre {
+  background-color: var(--bg-pre);
+  overflow-x: scroll;
+}
+
+body {
+  margin-block: 4em;
+  margin-inline: 0;
+  --margin-inline: 4rem;
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+}
+
+
+@media (width < 40em) {
+  body {
+    margin-block: 1em;
+    --margin-inline: 1rem;
+  }
+}
+
+p, blockquote {
+  margin-block: 2.25em;
+  max-width: 34rem;
+}
+
+h2 {
+  color: var(--accent);
+}
+
+h2, p {
+  margin-inline: var(--margin-inline);
+}
+
+pre {
+  padding-block: 2.25em;
+  padding-inline: var(--margin-inline);
+}
+
+blockquote {
+  margin-block: 2.25em;
+  margin-inline: var(--margin-inline);
+  padding-inline: 1em;
+  border-inline-start: 2px solid var(--accent);
+  color: var(--accent);
+}
+</style>
+
+  <meta name="og:image" content="/preview.png">
+  <link rel="icon" href="/icon.png" type="image/png">
+</head>
+
+<body>
+
+<header>
+<h2>AWS Services Simply Explained</h2>
+<p>
+	<a href="/">srngx</a><br>
+	Dec 16, 2024
+</p>
+</header>
+
+<p>This is the list of AWS resources required for Entry level devops interview preparation. 
+Sometimes we struggle to explain the definition we already know it's usecase in simpler terms. 
+So I curated this list. The ones written in <em>Italian</em> is my own hand crafted lines 
+while others mostly generated from Gemini Ai. </p>
+
+<ul>
+ <p>
+	 <b>EC2 (Elastic Compute Cloud)</b>: Like renting virtual computers in the cloud, you can run whatever software you want on them.
+ </p>
+ 
+ <p>
+   <em>Its like vps or vms in the cloud, they are scalable, flexible and cheaper.</em>
+ </p>
+
+ <p>
+	 <b>VPC</b> is like having your own private network within the cloud. It lets you create a secure and isolated space for your resources, like your own little corner of the internet in AWS with all the required tools to create a network such as subnets, route table, internet gateway, VPNs, etc.
+ </p>
+   
+ <p>
+	 <b>Load Balancer</b>: Distributes traffic across multiple EC2 instances so your application can handle more users and is more resilient.
+ </p>
+   
+ <p>
+	 <b>CloudWatch</b>: Monitors your AWS resources and applications, collecting metrics and logs to help you understand performance and troubleshoot issues.
+ </p>
+
+  <p>
+    <em>Aws provide cloudwatch service to monitor and manage logs of resources to help user getting better performance and troubleshoot issues.</em>
+  </p> 
+ 
+ <p>
+	 <b>CloudFront</b>: A content delivery network (CDN) that makes your websites and applications faster by caching content closer to your users.
+ </p>
+
+ <p>
+   <em>Cloudfront is aws managed CDN to caching the content closer to users to make websites and applications faster.</em>
+ </p>
+ 
+ <p>
+	 <b>S3 (Simple Storage Service)</b>: Like a hard drive in the cloud for storing all sorts of files, from websites to backups.
+ </p>
+ 
+ <p>
+   <em>Aws managed storage service like a Google drive to store all sorts of files and store backups</em>
+ </p>
+ 
+ <p>
+	 <b>EFS (Elastic File System)</b>: A network file system that lets you share files between multiple EC2 instances.
+ </p>
+   
+ <p>
+	 <b>RDS (Relational Database Service)</b>: Makes it easy to set up and manage databases in the cloud, like MySQL, PostgreSQL, and Oracle.
+ </p>
+
+   
+ <p>
+	 <b>Route 53</b>: A scalable DNS service that translates domain names (like google.com) into IP addresses.
+ </p>
+   
+ <p>
+	 <b>Lambda</b>: Lets you run code without provisioning or managing servers; you only pay for the compute time you use. <u>Serverless compute</u>
+ </p>
+
+ <p>
+	 <b>SNS (Simple Notification Service)</b>: A messaging service that can send notifications to various destinations, like email, SMS, and other applications.
+ </p>
+
+ <p>
+	 <b>SQS (Simple Queue Service)</b>: Like a post office box in the cloud. You put messages in it (like tasks to be done), and other services can pick them up later. This helps keep different parts of your application loosely connected and make things more reliable.
+ </p>
+
+ <p>
+	 <b>EBS (Elastic Block Store)</b>: Think of it as a fast hard drive in the cloud. You can attach it to an EC2 instance (your virtual computer) to store data. This is great for things like databases or file storage.
+ </p>
+
+  <p>
+	  <em>Ebs is like virtual hard drive that can be attached to ec2 instances and its scalable and you can adjust performance and type according to your need.</em>
+  </p>
+</ul>
+
+</body>
+</html>

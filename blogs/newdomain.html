@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>I just bought new domain</title>
+<meta name="description" content="Buying new domain came with some headaches.">
+
+<style>
+:root {
+  --border-code: aliceblue;
+}
+
+body {
+  margin: 4em;
+  line-height: 1.5;
+  max-width: 40em;
+}
+header {
+  h2 {
+    margin-block-end: 0
+  }
+
+  p {
+    margin-block-start: 0.5em;
+    opacity: 0.6;
+    font-size: 0.93rem;
+    font-style: italic;
+  }
+
+  margin-block-end: 3.325rem;
+}
+@media (width < 34em) {
+  body {
+    margin: 1em;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border-code: #484c4e;
+  }
+
+  body {
+    background-color: hsl(240, 12%, 16%);
+    color: hsl(200, 10%, 94%);
+  }
+
+  a {
+    color: #a2cffe;
+  }
+
+  a:visited {
+    color: #ca9bf7;
+  }
+}
+
+p, li {
+  margin-block: 2.25em;
+}
+
+h3 + p {
+  margin-block-start: 2.75em;
+}
+
+ol {
+  padding-inline-start: 2ch;
+}
+
+li {
+  padding-inline-start: 0.5ch;
+}
+
+pre {
+  padding: 2ch;
+  padding-inline: 2.5ch;
+  border: 1px solid var(--border-code);
+  overflow-x: auto;
+}
+
+li > pre {
+  margin-inline-start: -2.5ch;
+}
+
+:not(pre) > code {
+  padding: 0.5ch;
+  border: 1px solid var(--border-code);
+}
+
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  margin-block: 1ch;
+}
+
+div.listing > p {
+  margin-block-end: 1.5rem;
+}
+
+div.listing > pre {
+  white-space: wrap;
+}
+</style>
+
+
+  <meta name="og:image" content="/preview.png">
+  <link rel="icon" href="/icon.png" type="image/png">
+</head>
+
+<body>
+<header>
+<h2>I just bought a New Domain</h2>
+<p>srngx<br>
+Dec 06,2024</p>
+</header>
+<p>	
+Recently I just purchased new domain "sarangwandile.xyz" from godaddy.
+but something didint go well.
+
+As soon i purchased it it went into black list of <b>Spam Eating Monkey</b>
+</p>
+<pre><code>SEM-FRESH — Domains registered in the last 5 days
+SEM-FRESH10 — Domains registered in the last 10 days
+SEM-FRESH15 — Domains registered in the last 15 days
+SEM-FRESH30 — Domains registered in the last 30 days
+</code></pre>
+<p>
+And I was panick as It was rufusing to load my github pages static website (which would be this one)
+</p>
+<p>
+I create hugo based personal website just to test this domain. And thought I would stick to it for at least one year.
+but because of this panick I was angry onto godaddy for what deemed for me to be **bad service**
+but then one friend told me to use cloudflare nameservers and I did.
+</p>
+<p>
+and site is visible but still I can only see it with using vpn.
+</p>
+<p>
+I need to do something regarding blacklisting.
+</p>
+<p>
+and hugo site also not properly working and not showing images and another links at this point.
+</p>
+<p>
+unto it.
+</p>
+<p>
+bye.
+</p>
+
+
+<h2>Update:</h2>
+<hr>
+<p>
+The Images not loading issue was because of hugo `baseUrl` configuration. <br>
+This varialbe if set to domain or custom link it resolves the links relative to that url.<br><br>
+So if I leave it empty <code>basUrl = ""</code> and ran with <code>hugo server</code> command it automatically assumes <code>localhost:1313</code> for base url. <br><br>but if set to another url like <code>example.com</code> it try it use it.
+but my static site wasnt deployed using hugo framework from cloudflare I just build hugo site on windows and push it to github repo and cloudflare pages will statically serve the pages in "/public" folder.
+<p>
+	
+<p>
+
+So upon changin baseUrl to "/" just works and fixed the issue.<br><br>
+ 
+So ig now I have one less issue to fix.</p>
+
+<h2>Another Update as on 08/12/2024</h2>
+<p>It turns out these blacklist will automatically clear my domain after 5 days<br><br>
+Fortunately it seems to fixed itself and now I dont have to wait for 5 days and <u>I can load my website without vpn now.</u>
+</p>
+
+<h3>Todo</h3>
+<ul>
+<li> [x] Fixing images and relative urls not showing</li>
+<li> [x] Removing domain from blacklisting  
+</li>
+</ul>
+
+<h3> Notes for self</h3>
+
+<p>
+When building site with hugo always use with these <code>flags</code> if you dont want to regret later.
+</p>
+
+<pre><code>hugo server --baseURL https://example.org/ --appendPort=false 
+</code></pre>
+
+<p>
+additionally you can also add <code>baseUrl="https://example.org"</code> in your <code>hugo.yaml</code>
+</p>
+</body>
+
+</html>

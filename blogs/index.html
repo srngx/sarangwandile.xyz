@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>NeoLab - My Webdev Endevours</title>
+<meta name="description" content="Neo Void's WebLab">
+<link rel="icon" href="assets/jayshriram.png" type="image/x-icon">
+<link rel="alternate" type="application/rss+xml" href="/rss.xml">
+
+<style>
+:root {
+  --sbg: oklch(31.14% 0.021 285.75);
+  --bg: oklch(0 0 0);
+  --text: oklch(90% 0.008 286.75);
+  --stext: oklch(8% 0 0);
+  --soft: oklch(75.94% 0 0);
+  --ssoft: oklch(60% 0 0);
+
+  --baby-blue: #a2cffe;
+  --baby-purple: #ca9bf7;
+  --divider: oklch(75.94% 0 0 / 0.16);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: oklch(0 0 0);
+    --text: oklch(90% 0.008 286.75);
+    --soft: oklch(75.94% 0 0);
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+
+  margin: 1rem;
+  line-height: 1.5;
+  max-width: 40rem;
+}
+
+@media (width > 40em) {
+  body {
+    margin: 4em;
+  }
+}
+
+h3 {
+  font-style: italic;
+  color: var(--soft);
+  opacity: 0.9;
+  margin-block-start: 4em;
+}
+
+h3:not(:first-of-type) {
+  padding-block-start: 0.4rem
+}
+
+li {
+  padding-inline: 0.5em;
+  margin-block: 0.5em;
+  font-family: system-ui, sans-serif;
+}
+
+a {
+  text-underline-offset: 0.4em;
+  text-decoration-thickness: 0.1em;
+}
+
+a:hover {
+  text-decoration-thickness: 0.2em;
+}
+
+a {
+   color: var(--text);
+   text-decoration-color: var(--baby-blue);
+}
+
+a:visited {
+   color: var(--text);
+   text-decoration-color: var(--baby-purple);
+}
+
+@media (prefers-color-scheme: dark) {
+  li {
+    color: var(--soft);
+  }
+
+  a {
+    color: var(--text);
+    text-decoration-color: var(--baby-blue);
+  }
+
+  a:visited {
+    color: var(--text);
+    text-decoration-color: var(--baby-purple);
+  }
+}
+
+@media (width < 40em) {
+  ul {
+    padding-inline-start: 1em;
+  }
+}
+
+footer {
+  margin-block: 8rem;
+  border-block-start: 1px dotted var(--divider);
+  padding-block-start: 1.5rem;
+}
+
+@media (width < 40em) {
+  footer {
+    padding-block-end: 0.5rem;
+  }
+}
+
+header h2 {
+  margin-block-end: 0.2em;
+  span {
+    background-color: #ffede5;
+    color: black;
+  }
+}
+
+header p {
+  margin-block-start: 0;
+  margin-inline: 0.07rem;
+  opacity: 0.7;
+  font-style: italic;
+  font-family: serif;
+}
+
+</style>
+
+  <meta name="og:image" content="/preview.png">
+  <link rel="icon" href="/icon.png" type="image/png">
+</head>
+
+<body>
+
+<h3>2025</h3>
+<ul>
+ <li><a href="./blogs/Exploiting_Github_Token.html">Exploiting Github Token </a></li>
+</ul>
+
+<h3>2024</h3>
+<ul>
+<li><a href="./blogs/AWS_Services_Simply_Explained.html">AWS Services Simply Explained</a></li>
+<li><a href="./blogs/what_is_git.html">What is Git</a></li>
+<li><a href="./blogs/AWS_in_Plain_English.html">AWS in Plain English </a></li>
+<li><a href="./blogs/newdomain.html">I just Bought New Domain</a></li>
+<li><a href="./blogs/firstblog.html">First Blog ever on this site.</a></li>
+</ul>
+
+<hr>
+
+<header>
+
+<img style="float: left; padding-right: 10px" loading="lazy" src="https://cdn.jsdelivr.net/gh/pineapples5972/mycdn/chitras/ghost-in-the-lab.jpg" height="150px" width="150px">
+<h2>Srngx <span>BLOGS</span></h2>
+<p>
+<small>
+<p>From Caveman to the Cloud</p>
+<p><i>
+<a href="https://github.com/srngx/sarangwandile.xyz" target="_blank">github</a> |
+<a href="/rss.xml" target="_blank">rss</a>
+</i></p>
+</small>
+</p>
+</header>
+
+</body>
+</html>
