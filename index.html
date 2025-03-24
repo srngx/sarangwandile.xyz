@@ -15,6 +15,8 @@
   --text: oklch(94% 0 0);
   --soft: oklch(84.24% 0.006 43.32);
   --hard: oklch(100% 0 0);
+  --baby-blue: #a2cffe;
+  --baby-purple: #ca9bf7;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +26,25 @@
     --soft: oklch(75.15% 0.013 86.85);
     --hard: oklch(98% 0 0);
   }
+}
+
+a {
+  text-underline-offset: 0.4em;
+  text-decoration-thickness: 0.1em;
+}
+
+a:hover {
+  text-decoration-thickness: 0.2em;
+}
+
+a {
+   color: var(--text);
+   text-decoration-color: var(--baby-blue);
+}
+
+a:visited {
+   color: var(--text);
+   text-decoration-color: var(--baby-purple);
 }
 </style>
 
@@ -41,8 +62,10 @@
 
 <header>
 <h1><span class="muted">Sarang</span> Wandile</h1>
-<div><span class="muted">सारंग</span> वांदिले</div>
+<div class="devnagri"><span class="muted">सारंग</span> वांदिले</div>
 </header>
+
+<br>
 
 <section>
 
@@ -61,20 +84,21 @@
 <button class="major" data-offset="11"></button>
 </div>
 
+<br><br>
 <small>
-This is demonstration of rag bhairav. [FYI I dont play piano]
+ॐ नमो भगवते वासुदेवाय
 </small>
-
-<p>
-Remember, raags are not a recipe but an invitation to create music
-</p>
 
 </section>
 
 </main>
 
 <footer>
-<a href="/blogs">Check out my blog</a>
+<a href="/blogs">blogs</a>
+|
+<a href="https://cv.sarangwandile.xyz">cv</a>
+|
+<a href="https://notes.sarangwandile.xyz">notes</a>
 </footer>
 
 </body>
