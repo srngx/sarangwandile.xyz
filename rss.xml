@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 <channel>
    <title>sarangwandile.xyz</title>
    <description>Sarang's website</description>
-   <link>https://sarangwandile.xyz</link>
+   <link>https://sarangwandile.xyz/rss.xml</link>
    <language>en</language>
    <image>
       <title>sarangwandile.xyz</title>
-      <url>https://mrmr.io/preview.png</url>
-      <link>https://sarangwandile.xyz</link>
+      <url>https://sarangwandile.xyz/preview.png</url>
+      <link>https://sarangwandile.xyz/rss.xml</link>
    </image>
    <item>
       <title>Exploiting Github Token</title>
