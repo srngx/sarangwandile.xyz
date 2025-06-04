@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Git Clone Specific Directory</title>
+		<meta name="description" content="sarangwandile.xyz | Blogs">
+		<link rel="icon" href="/assets/jayshriram.png" type="image/x-icon">
+		<link rel="alternate" type="application/rss+xml" href="/rss.xml">
+   </head>
+<style>
+:root {
+  --sbg: oklch(31.14% 0.021 285.75);
+  --bg: oklch(0 0 0);
+  --text: oklch(90% 0.008 286.75);
+  --stext: oklch(8% 0 0);
+  --soft: oklch(75.94% 0 0);
+  --ssoft: oklch(60% 0 0);
+
+  --baby-blue: #a2cffe;
+  --baby-purple: #ca9bf7;
+  --divider: oklch(75.94% 0 0 / 0.16);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: oklch(0 0 0);
+    --text: oklch(90% 0.008 286.75);
+    --soft: oklch(75.94% 0 0);
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin-left: 20em;
+  margin-block: 4rem;
+  margin-inline: 3rem;
+  line-height: 1.5;
+}
+header {
+  h2 {
+    margin-block-end: 0
+  }
+
+  p {
+    margin-block-start: 0.5em;
+    opacity: 0.6;
+    font-size: 0.93rem;
+    font-style: italic;
+  }
+
+  margin-block-end: 3.325rem;
+}
+
+@media (width < 40em) {
+  body {
+    margin-block: 1rem;
+    margin-inline: 0rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: oklch(0 0 0);
+    color: oklch(90% 0.008 286.75);
+    margin-left: 20em;
+  }
+}
+
+pre {
+
+}
+
+.dot {
+  background-color: rgb(0 50% 100%);
+  color: white;
+  padding: 0.5ch;
+  max-width: 40ch;
+}
+
+canvas {
+  display: block;
+  margin-inline: 1rem;
+  width: calc(min(36rem, 100%) - 2rem);
+  aspect-ratio: 2/1;
+}
+
+header, p, blockquote, h3, iframe {
+  max-width: 34rem;
+  margin-inline: 1rem;
+}
+
+pre {
+  padding: 1.5rem;
+  background-color: var(--divider);
+  color: var(--baby-blue);
+}
+
+pre {
+  max-width: 33rem;
+  overflow-x: auto;
+}
+
+p, pre, canvas {
+  margin-block: 2.4rem;
+}
+
+@media (width < 40em) {
+  pre {
+    padding-inline: 1rem;
+  }
+}
+
+@media (width > 40em) {
+  pre {
+    border-radius: 8px;
+  }
+}
+
+:not(pre) > code {
+  padding: 1ch;
+  background-color: var(--divider);
+  color: var(--baby-purple);
+}
+
+blockquote {
+  opacity: 0.5;
+  border-inline-start: 2px solid #888;
+  margin-inline: 2px;
+}
+
+#bonus > pre {
+  max-width: 100%;
+  font-size: smaller;
+  padding: 0 1rem 2ch 1rem;
+  background: transparent;
+}
+
+iframe {
+  margin-block-end: 3rem;
+}
+
+@media (width < 350px) {
+  iframe {
+    margin-inline: 0;
+  }
+}
+</style>
+
+   <body>
+		   <h1 class="dot">Git Clone Specific Directory</h1>
+		   <p>While you cannot clone only a single directory from repository there is still one workaround to this problem.</p>
+		   <p>i.e. Using <code>sparse-checkout</code> feature.</p>
+		   <p>You can specify name of the directory in <code>.git/info/sparse-checkout</code> file only checkout it. It makes it visible in your working directory. This saves disk space and time if the repository is very large and you only need a small part of it.</p>
+
+		   <h3>1. Initialize an empty Git repository</h3>
+		   <pre>git init 
+cd repo-name</pre>
+
+		   <h3>2. Configure sparse-checkout</h3>
+		   <pre>git config core.sparseCheckout true</pre>
+
+		   <h3>3. Add the remote repository</h3>
+		   <pre>git remote add origin repo-url</pre>
+
+		   <h3>4. Specify the directories in you want to clone</h3>
+		   <pre># For example for 'Frontend/Java-Login-App', you would add:
+echo "DevOps-Project-01/Java-Login-App/" >> .git/info/sparse-checkout</pre>
+
+		   <h3>5. Pull the files</h3>
+		   <pre>git pull origin main</pre>
+
+		   <h2>However it still has some pros and cons:</h3>
+
+		   <p><b>Full Repository History:</b> Even with sparse-checkout, the entire repository's Git history (commits, branches, tags) is still downloaded. Only the working directory files are filtered.
+		   </p>
+		   <p>
+		   <b>Large Repositories:</b> For extremely large repositories, you might combine this with a shallow clone <code>git clone --depth 1 repo-url</code> to reduce the history downloaded, and then apply sparse-checkout.
+		   </p>
+		   <p>
+				   <b>Updating:</b> When you git pull later, Git will continue to only check out the directories you've specified in <code>.git/info/sparse-checkout</code>. If you need to add more directories, you'll need to edit that file and then run <code>git read-tree -m -u HEAD</code> to update your working directory.
+		   </p>
+		   
+   </body>
+   
+</html>
