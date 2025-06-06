@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        :root {
+            --text: oklch(94% 0 0);
+            --soft: oklch(84.24% 0.006 43.32);
+            --hard: oklch(100% 0 0);
+            --baby-blue: #a2cffe;
+            --baby-purple: #ca9bf7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 300;
+            margin-bottom: 1rem;
+            color: var(--hard);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--soft);
+            font-weight: 300;
+        }
+
+        .projects {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .project-card {
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .project-card:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateY(-2px);
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--hard);
+            font-weight: 400;
+        }
+
+        .project-description {
+            margin-bottom: 1.5rem;
+            color: var(--soft);
+            line-height: 1.7;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        a {
+            text-underline-offset: 0.4em;
+            text-decoration-thickness: 0.1em;
+            color: var(--text);
+            text-decoration-color: var(--baby-blue);
+            transition: all 0.2s ease;
+        }
+
+        a:hover {
+            text-decoration-thickness: 0.2em;
+        }
+
+        a:visited {
+            color: var(--text);
+            text-decoration-color: var(--baby-purple);
+        }
+
+        .link-tag {
+            font-size: 0.9rem;
+            padding: 0.25rem 0.75rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            text-decoration: none;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .link-tag:hover {
+            border-color: var(--baby-blue);
+            background: rgba(162, 207, 254, 0.1);
+            text-decoration: none;
+        }
+
+        .link-tag:visited:hover {
+            border-color: var(--baby-purple);
+            background: rgba(202, 155, 247, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--soft);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem 1rem;
+            }
+
+            header {
+                margin-bottom: 3rem;
+            }
+
+            .project-card {
+                padding: 1.5rem;
+            }
+
+            .project-links {
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .project-links {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .link-tag {
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Projects</h1>
+            <p class="subtitle">A collection of things I've built</p>
+        </header>
+
+        <main class="projects">
+            <div class="project-card">
+                <h2 class="project-title">DevOps Foundational Project</h2>
+                <p class="project-description">
+                    Containerizing and Deploying UI and API in Kubernetes. This project covers foundational concepts of Devops, Containerization of React frontend and Python backend, and it uses Github Container Registry for Docker Image storage.                 </p>
+                <div class="project-links">
+                    <a href="#" class="link-tag">GitHub</a>
+                    <a href="https://notes.sarangwandile.xyz/Projects/DevOps-Foundational-Project" class="link-tag">Documentation</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h2 class="project-title">Three Tier Architecture Using AWS</h2>
+                <p class="project-description">
+                    This project demonstrates a comprehensive cloud-native approach to deploying a full-stack web application using modern DevOps practices. The application features an Angular frontend hosted on AWS S3, with a Spring Boot backend running on Amazon EKS (Elastic Kubernetes Service), and data persistence managed through Amazon RDS. 
+                </p>
+                <div class="project-links">
+                    <a href="https://notes.sarangwandile.xyz/Projects/Modern-Web-Application-Deployment-on-AWS" class="link-tag">Documentation</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h2 class="project-title">Springboot Webapp</h2>
+                <p class="project-description">
+                    This project features Microservice based deployment using Docker-Compose. It highlights Containerization and deployment of Self Created Springboot Webapp using Docker and Docker-Compose.
+                </p>
+                <div class="project-links">
+                    <a href="" class="link-tag">Documentation</a>
+                    <a href="https://github.com/srngx/Docker-Projects/tree/main/springboot-webapp" class="link-tag">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h2 class="project-title">Deployment of LAMP Stack on AWS</h2>
+                <p class="project-description">
+						This project features self Made PHP based Student Registration App Deployment on AWS with EC2 and RDS using kubernetes.
+                </p>
+                <div class="project-links">
+                    <a href="https://notes.sarangwandile.xyz/Projects/PHP-and-Mysql-based-Student-Registration-App-From-Scratch" class="link-tag">Documentation</a>
+                    <a href="https://github.com/srngx/studentUI" class="link-tag">GitHub</a>
+                </div>
+            </div>
+		    <div class="project-card">
+                <h2 class="project-title">Deployment of NodeJS based app with Github Actions</h2>
+                <p class="project-description">
+					  This project using Quartz to publish Obsidian Notes on Github Pages.
+                </p>
+                <div class="project-links">
+                    <a href="https://notes.sarangwandile.xyz" class="link-tag">Live Deployemnt</a>
+                    <a href="https://github.com/srngx/my-devops-notes" class="link-tag">GitHub</a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Built with care • <a href="mailto:your.email@example.com">Get in touch</a></p>
+        </footer>
+    </div>
+</body>
+</html>

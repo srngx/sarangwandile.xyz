@@ -1,51 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Srngx Blogs</title>
+    <meta name="description" content="Sarang Wandile | Blogs">
+    <link rel="icon" href="assets/jayshriram.png" type="image/x-icon">
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml">
+    <link rel="stylesheet" href="/styles/root_blog.css">
+    <style>
+        body {
+            display: flex; 
+            min-height: 100vh; 
+            margin: 0; 
+			font-family: sans-serif; 
+            line-height: 1.6; 
+        }
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+        header {
+            width: 250px; 
+            flex-shrink: 0; 
+            background-color: var(--bg); 
+            padding: 20px;
+            box-sizing: border-box; 
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center; 
+        }
 
-<title>Srngx Blogs</title>
-<meta name="description" content="Sarang Wandile | Blogs">
-<link rel="icon" href="assets/jayshriram.png" type="image/x-icon">
-<link rel="alternate" type="application/rss+xml" href="/rss.xml">
-<link rel="stylesheet" href="/styles/root_blog.css">
+        header img {
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 8px; 
+        }
+
+        header h2 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+
+        header a {
+            text-decoration-color: var(--baby-blue);
+            color: var(--text);
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        .content-area {
+            display: flex; 
+            flex-grow: 1; 
+            box-sizing: border-box;
+        }
+
+        main.bloglist {
+            flex-grow: 1; 
+            flex-basis: 0; 
+            min-width: 500px; 
+            max-width: 800px; 
+            display: flex;
+            justify-content: center; 
+            align-items: flex-start; 
+            padding: 20px; 
+            box-sizing: border-box;
+            overflow-y: auto; 
+        }
+
+        main.bloglist > div {
+            width: 100%; 
+        }
+
+        .right-sidebar {
+            width: 550px; 
+            flex-shrink: 0; 
+            background-color: var(--bg); 
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start; 
+            text-align: left;
+            overflow-y: auto; 
+        }
+
+        .bloglist ul {
+            list-style: none; 
+            padding: 0;
+        }
+
+        .bloglist li {
+            margin-bottom: 8px;
+        }
+
+        .bloglist li a {
+            font-size: 1.1em;
+            color: var(--soft);
+        }
+
+        .bloglist li a:hover {
+            color: var(--baby-blue);
+            text-decoration: underline;
+        }
+
+        .right-sidebar ul {
+            list-style: none; 
+            padding: 0;
+            width: 100%; 
+        }
+
+        .right-sidebar li {
+            margin-bottom: 5px;
+        }
+
+        .right-sidebar li a {
+            color: #555;
+            text-decoration: none;
+        }
+
+        .right-sidebar li a:hover {
+            text-decoration: underline;
+        }
+
+
+        hr {
+            border: 0;
+            border-top: 1px solid var(--divider);
+            margin: 20px 0;
+        }
+    </style>
 </head>
-
 <body>
+    <header>
+        <div class="leftside">
+            <img loading="lazy" src="https://sarangwandile.xyz/preview.png" height="150px" width="150px" alt="Srngx Logo">
+            <h2>Srngx <span>BLOGS</span></h2>
+            <p><small>From Caveman to the Cloud</small></p>
+            <p>
+                <i>
+                    <a href="https://github.com/srngx/sarangwandile.xyz" target="_blank">github</a> |
+                    <a href="/rss.xml" target="_blank">rss</a>
+                </i>
+            </p>
+        </div>
+    </header>
 
-<h3>2025</h3>
-<ul>
-		<li><a href="/blogs/Git_clone_specific_dir.html">Git Clone a Specific Directory</a></li>
- <li><a href="/blogs/Exploiting_Github_Token.html">Exploiting Github Token </a></li>
-</ul>
+    <div class="content-area">
+        <main class="bloglist">
+            <div>
+                <h3>2025</h3>
+                <ul>
+                    <li><a href="/blogs/Git_clone_specific_dir.html">Git Clone a Specific Directory</a></li>
+                    <li><a href="/blogs/Exploiting_Github_Token.html">Exploiting Github Token </a></li>
+                </ul>
+                <h3>2024</h3>
+                <ul>
+                    <li><a href="/blogs/AWS_Services_Simply_Explained.html">AWS Services Simply Explained</a></li>
+                    <li><a href="/blogs/what_is_git.html">What is Git</a></li>
+                    <li><a href="/blogs/AWS_in_Plain_English.html">AWS in Plain English </a></li>
+                    <li><a href="/blogs/newdomain.html">I just Bought New Domain</a></li>
+                    <li><a href="/blogs/firstblog.html">First Blog ever on this site.</a></li>
+                </ul>
+                <hr>
+            </div>
+        </main>
 
-<h3>2024</h3>
-<ul>
-<li><a href="/blogs/AWS_Services_Simply_Explained.html">AWS Services Simply Explained</a></li>
-<li><a href="/blogs/what_is_git.html">What is Git</a></li>
-<li><a href="/blogs/AWS_in_Plain_English.html">AWS in Plain English </a></li>
-<li><a href="/blogs/newdomain.html">I just Bought New Domain</a></li>
-<li><a href="/blogs/firstblog.html">First Blog ever on this site.</a></li>
-</ul>
-
-<hr>
-
-<header>
-
-<img style="float: left; padding-right: 10px" loading="lazy" src="https://sarangwandile.xyz/preview.png" height="150px" width="150px">
-<h2>Srngx <span>BLOGS</span></h2>
-<p>
-<small>
-<p>From Caveman to the Cloud</p>
-<p><i>
-<a href="https://github.com/srngx/sarangwandile.xyz" target="_blank">github</a> |
-<a href="/rss.xml" target="_blank">rss</a>
-</i></p>
-</small>
-</p>
-</header>
-
+        <div class="right-sidebar">
+			<iframe height="500" width="500" frameborder="0" src="/snake.html"></iframe>
+			<p style="margin: 0 auto;">My Highscore: 40</p>
+        </div>
+    </div>
 </body>
 </html>
