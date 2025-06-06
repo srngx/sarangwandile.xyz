@@ -35,7 +35,6 @@
 body {
   background-color: var(--bg);
   color: var(--text);
-  margin-left: 20em;
   margin-block: 4rem;
   margin-inline: 3rem;
   line-height: 1.5;
@@ -60,18 +59,27 @@ header {
     margin-block: 1rem;
     margin-inline: 0rem;
   }
+  h1 {
+    font-size: 27px;
+  } 
+  h2 {
+		  font-size: 
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     background-color: oklch(0 0 0);
     color: oklch(90% 0.008 286.75);
-    margin-left: 20em;
   }
 }
 
 pre {
 
+}
+
+.main {
+  margin: 0 auto;
 }
 
 .dot {
@@ -88,13 +96,13 @@ canvas {
   aspect-ratio: 2/1;
 }
 
-header, p, blockquote, h3, iframe {
+header, p, blockquote, h3, pre, iframe {
   max-width: 34rem;
   margin-inline: 1rem;
 }
 
 pre {
-  padding: 1.5rem;
+  padding: 0.7rem;
   background-color: var(--divider);
   color: var(--baby-blue);
 }
@@ -105,7 +113,7 @@ pre {
 }
 
 p, pre, canvas {
-  margin-block: 2.4rem;
+  margin-block: 0.4rem;
 }
 
 @media (width < 40em) {
@@ -151,6 +159,7 @@ iframe {
 </style>
 
    <body>
+		   <div class="main">
 		   <h1 class="dot">Git Clone Specific Directory</h1>
 		   <p>While you cannot clone only a single directory from repository there is still one workaround to this problem.</p>
 		   <p>i.e. Using <code>sparse-checkout</code> feature.</p>
@@ -181,9 +190,10 @@ echo "DevOps-Project-01/Java-Login-App/" >> .git/info/sparse-checkout</pre>
 		   <b>Large Repositories:</b> For extremely large repositories, you might combine this with a shallow clone <code>git clone --depth 1 repo-url</code> to reduce the history downloaded, and then apply sparse-checkout.
 		   </p>
 		   <p>
-				   <b>Updating:</b> When you git pull later, Git will continue to only check out the directories you've specified in <code>.git/info/sparse-checkout</code>. If you need to add more directories, you'll need to edit that file and then run <code>git read-tree -m -u HEAD</code> to update your working directory.
+		   <b>Updating:</b> When you git pull later, Git will continue to only check out the directories you've specified in <code>.git/info/sparse-checkout</code>. If you need to add more directories, you'll need to edit that file and then run <code>git read-tree -m -u HEAD</code> to update your working directory.
 		   </p>
 		   
+		   </div>
    </body>
    
 </html>
