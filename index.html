@@ -349,6 +349,12 @@
             font-size: 1.1rem;
         }
 
+        .user-photo {
+                margin-top: 10px; 
+				height: 100%;
+				width: 91%; 
+		}
+
         @media (max-width: 768px) {
             .container {
                 padding: 1.5rem 1rem;
@@ -365,16 +371,26 @@
             }
 
             .social-link, .resume-btn {
-                min-width: 200px;
+                min-width: 90px;
                 justify-content: center;
             }
+			.user-photo {
+                margin-top: 10px; 
+				height: 100%;
+				width: 91%; 
+			}
         }
 
         @media (max-width: 480px) {
             .profile-image {
-                width: 200px;
-                height: 186px;
+                width: 139px;
+                height: 133px;
             }
+            .user-photo {
+                width: 91%;
+                height: 100%;
+                margin-top: 2px;
+			}
 
             .role {
                 font-size: 1.1rem;
@@ -392,7 +408,7 @@
                             <div class="inner-border">
                                 <div class="image-frame">
                                     <div class="profile-img"> 
-									   <img style="margin-top: 10px" height="186px" width="200px" src="/assets/userpic.avif">
+									   <img class="user-photo" src="/assets/userpic.avif">
 									</div>
                                 </div>
                             </div>
